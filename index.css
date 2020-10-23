@@ -1,1 +1,131 @@
-/* Put your style information here! */
+*{
+	padding:0;
+	margin:0;
+}
+
+.wrapper{
+	padding: 15px 15px 15px 15px;
+}
+
+.header{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header h1{
+	font-family: 'Cormorant Garamond', serif;
+	color: #28363D;
+	font-size: 3rem;
+}
+
+h5{
+	font-family: 'Work Sans', sans-serif;
+	color: #707070;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+	color: #28363D;
+}
+
+.postl{
+	display: flex;
+	flex-direction: column;
+	padding: 100px 100px 25px 100px;
+    max-width: 700px;
+
+}
+
+.postl p, .postr p{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.75rem;
+
+
+}
+
+.postr{
+	display: flex;
+	flex-direction: column;
+	padding: 50px 100px 100px 100px;
+	text-align: right;
+	float: right;
+
+}
+
+#ufloat {
+	padding-top: 100px;
+	clear: both;
+}
+.postl li{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.75rem;
+	list-style-type: circle;
+}
+
+.postl li{
+    text-align: left;
+}
+
+.ss{
+	max-width: 33%;
+	padding: 25px 30px 0px 0px;
+
+}
+
+.grid{
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+	padding-bottom: 50px;
+}
+
+.imagewfoot{
+	display: flex;
+	flex-direction: column;
+}
+
+.footnote{
+	padding: 0 0 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.phone{
+	max-width: 33%;
+    align-items: center;
+}
+
+.
+
+.grid-hi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color:#28363D;
+
+}
+
+#ufloat2{
+    padding-top: 100px;
+    clear: both;
+    background-color: #28363D;
+
+}
+
+#ufloat2 h1, #ufloat2 h5, #ufloat2 p{
+    color: #DEE1DD;
+
+}
+
+.web{
+    width: 75%;
+}

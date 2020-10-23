@@ -1,14 +1,193 @@
 <!doctype html>
 
 <html>
-  <head>
-    <title>INSERT TITLE HERE!</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
+    <head>
+    	<title>Redesign Writeup</title>
+    	<link rel="stylesheet" href="index.css">
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght
+		@300&display=swap"rel="stylesheet"><meta content="width=device-width,
+	 	initial-scale=1"name="viewport"/>
+	 	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Work+Sans:wght@300&display=swap"
+	 	rel="stylesheet">
+	</head>
+ 	<body style="background-color:#DEE1DD;">
+		<div class="header">
+			<h5>Project 2</h5>
+			<h1>Redesign</h1>
+		</div>
+		<div class="postl">
+			<h5>Assignment</h5>
+			<p>
+				Take a poorly designed website, analyze it and identify its flaws.
+				Using this analyses, redesign the website by first creating
+				low and high fidelity prototypes, followed by an actual webpage
+				that addresses the problems of the original site.
+			</p>
+		</div>
+		<div class="postr">
+			<h5>Goals</h5>
+			<p>
+				The goals of this project include: refining HTML/CSS Skills,
+				analyzing interfaces on the bases of accessibility ,
+				creating low /high fidelity mockups, and practice building
+				responsive websites.
+			</p>
+		</div>
+		<p>&nbsp;</p>
+		<div class="header" id="ufloat">
+			<h5>website</h5>
+			<h1>Yale School of Art</h1>
+			<a href="https://www.art.yale.edu/"><h5>Link</h5></a>
+		</div>
 
-  <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
+		<div class="grid">
+			<div class="postl">
+				<h5>problems</h5>
+				<ul>
+					<li>Poor Alignment</li>
+					<li>Typography against background is hard to read</li>
+					<li>No unifying color palette</li>
+					<li>Poor Hierarchy</li>
+					<li>No clear path for users</li>
+					<li>Text size very small, generally inaccessible</li>
+					<li>Background very busy, confuses layout</li>
+				</ul>
+			</div>
+			<img src="./img/ss1.png" alt="original website sceenshot" class="ss">
+			<div class="postl">
+				<h5>accessibility test findings</h5>
+				<p>
+					The WAIVE accessibility results for this website weren't terrible but
+                    they can definitely be improved. There were multiple warnings of small text,
+                    long alternative text, and suspisious link text; but overall there were no major
+                    errors. The website also did well in terms of ARIA, with 165 ARIA elemnts being highlighed
+                    by the WAIVE application.
+
+				</p>
+			</div>
+			<img src="./img/ss2.png" alt="original website sceenshot" class="ss">
+		</div>
+		<!-- Lowfi Section-->
+		<div class="header">
+			<h5>redesign</h5>
+			<h1>Low-Fidelity Mockups</h1>
+		</div>
+		<div class="grid">
+			<div class="postl">
+				<h5>Laptop</h5>
+				<p>
+					The wireframe of the redesigned website improves upon the original
+					in numerous ways. For one it takes all of the navigation menus, login forms
+					and navbars from the left of the interface and centers them/ distributes
+					them evenly accross the screen so that the interface is no longer poorly aligned.
+					<br><br>
+					The wireframe also uses a grid layout for all announcments/ posts so that the user
+					has a clearer mapping of elements on the page.
+				</p>
+			</div>
+			<img src="./img/low1.png" alt="original website sceenshot" class="ss">
+			<div class="postl">
+				<h5>Tablet</h5>
+				<p>
+					The tablet version of the low fidelity mockup functions very
+					similarly to the desktop version. The main differences are,
+					the navbar list is replaced with a bar icon that opens a dropdown menu
+					to reduce clutter, and the spacing of elements on the page is slightly
+					more compresed.
+				</p>
+			</div>
+			<img src="./img/low2.png" alt="original website sceenshot" class="ss">
+			<div class="postl">
+				<h5>Mobile</h5>
+				<p>
+					The mobile version is similar to the tablet, the only
+					difference being that there is no space for multiple columns,
+					resulting in a singular column of elemnts as you scroll.
+				</p>
+			</div>
+			<img src="./img/low3.png" alt="original website sceenshot" class="ss">
+		</div>
+
+		<div class="header" id="ufloat2">
+			<h5>Redesign</h5>
+			<h1>High-Fidelity Mockups</h1>
+		</div>
+		<div class="grid-hi" style="background-color: #28363D;">
+			<img src="./img/iphone1.png" alt="original website sceenshot" class="phone">
+			<img src="./img/iphone2.png" alt="original website sceenshot" class="phone">
+			<img src="./img/iphone3.png" alt="original website sceenshot" class="phone">
+			<img src="./img/ipad1.png" alt="original website sceenshot" class="phone">
+			<img src="./img/ipad2.png" alt="original website sceenshot" class="phone">
+			<img src="./img/ipad3.png" alt="original website sceenshot" class="phone">
+			<img src="./img/mac1.png" alt="original website sceenshot" class="phone">
+			<img src="./img/mac2.png" alt="original website sceenshot" class="phone">
+			<img src="./img/mac3.png" alt="original website sceenshot" class="phone">
+		</div>
+
+		<div class="grid">
+			<div class="postl">
+				<h5>Laptop</h5>
+				<p>
+					The high-fidelity mockup both improves upon the original website and
+                    expands on the low-fidelity wire frame by adding details not
+                    captured in the wireframe. The high fidelity shows a unified color scheme
+                    that simplifies the interface and decreses the busyness of the original.
+					<br><br>
+					Each element laid out horizontally is in a flexbox with row wrap so that when
+                    the screen size changes, they will condense before wrapping into one single column.
+
+				</p>
+			</div>
+			<img src="./img/laptop1.png" alt="original website sceenshot" class="ss">
+			<div class="postl">
+				<h5>Tablet</h5>
+				<p>
+					The tablet version is identical to the desktop with the only exception being
+                    the navbar. In the desktop all the navigation links are displayed but when the screen
+                    width decreases to tablet size, bootstrap is used to make the bar icon display and
+                    lead to a drop-down menu on-press.
+				</p>
+			</div>
+			<img src="./img/tablet1.png" alt="original website sceenshot" class="ss">
+			<div class="postl">
+				<h5>Mobile</h5>
+				<p>
+					The mobile version is very similar to the tablet except that the width of the
+                    screen is now the smallest, which compressed the flex rows and results in
+                    all if the elements of the page being stored in a single column.
+				</p>
+			</div>
+			<img src="./img/phone1.png" alt="original website sceenshot" class="ss">
+		</div>
+        <div class="header" id="ufloat2">
+            <h5>Redesign</h5>
+            <h1>Visual Design Style Guide</h1>
+            <div class="postl">
+                <p>
+                    The visual design guide is relatively simple; few colors are used in the interface.
+                    <br><br>
+                    Links are grey regularly, orange on hover, and black when selected.
+                    There is one icon used, and it is the navbar bar icon, used when the screen width is compressed.
+                    There is one style of button, which remains the same on click and on standby.
+                    There are two types of headers for posts, the main with the orange shadow and the
+                    secondary header with no shadow and same fill as main.
+
+                </p>
+            </div>
+            <img src="./img/vis.png" alt="original website sceenshot" class="ss">
+        </div>
+        <div class="header" id="ufloat">
+            <h5>website</h5>
+            <h1>Redesigned Website</h1>
+            <a href="https://damp-beyond-92259.herokuapp.com/"><h5>Link</h5></a>
+        </div>
+        <div class="grid">
+            <img src="./img/web1.png" alt="original website sceenshot" class="web">
+            <img src="./img/web2.png" alt="original website sceenshot" class="web">
+            <img src="./img/web3.png" alt="original website sceenshot" class="web">
+            <img src="./img/web4.png" alt="original website sceenshot" class="web">
+
+
+        </div>
+	</body>
 </html>
